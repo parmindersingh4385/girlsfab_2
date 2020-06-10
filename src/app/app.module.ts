@@ -22,7 +22,11 @@ import { MobilebottomnavComponent } from './mobilebottomnav/mobilebottomnav.comp
     ShoesComponent,
     BagsComponent,
     FavoritesComponent,
-    RecentsComponent
+    RecentsComponent,
+    WebtopnavComponent,
+    WebbottomnavComponent,
+    MobiletopnavComponent,
+    MobilebottomnavComponent
   ],
   imports: [
     BrowserModule,
