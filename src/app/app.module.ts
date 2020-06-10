@@ -9,6 +9,10 @@ import { ShoesComponent } from './shoes/shoes.component';
 import { BagsComponent } from './bags/bags.component';
 import { FavoritesComponent } from './favorites/favorites.component';
 import { RecentsComponent } from './recents/recents.component';
+import { WebtopnavComponent } from './webtopnav/webtopnav.component';
+import { WebbottomnavComponent } from './webbottomnav/webbottomnav.component';
+import { MobiletopnavComponent } from './mobiletopnav/mobiletopnav.component';
+import { MobilebottomnavComponent } from './mobilebottomnav/mobilebottomnav.component';
 
 @NgModule({
   declarations: [
