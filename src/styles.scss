@@ -99,11 +99,23 @@ a, a:hover{text-decoration: none;}
 			display: inline-block; 
 			float: left; 
 			text-align: center; 
-			padding: 29px 0; 
+			padding: 3px 10px; 
 			background-color: #000; 
 			color: #fff; 
 			font-size: 12px;
 		}
+		/*.logoArea{ 
+			width:80px; 
+			display: inline-block; 
+			float: left; 
+			text-align: center; 
+			background-color: #000; 
+			background-image: url(assets/images/logo1.png);
+			background-repeat: no-repeat;
+			background-position: center center;
+	        background-size: 50%;
+			height: 60px;
+		}*/
 	}
 	.container-fluid{
 		/*padding-bottom: 8px; 
