@@ -103,6 +103,12 @@ a, a:hover{text-decoration: none;}
 			background-color: #000; 
 			color: #fff; 
 			font-size: 12px;
+			.mobile{
+				display: none;
+			}
+			.web{
+				display: block;
+			}
 		}
 		/*.logoArea{ 
 			width:80px; 
@@ -338,18 +344,30 @@ a, a:hover{text-decoration: none;}
 		.paddingNav{
 			padding: 0;
 			.logoArea{ 
-				padding: 15px 0; 
-				background-color:#fff; 
-				color: #444; 
-				text-align: center; 
-				font-weight: 600;
+				padding: 5px 10px;
+			    background-color: #fff;
+			    color: #444;
+			    text-align: center;
+			    font-weight: 600;
+			    width: 57px;
+			    margin-left: 3px;
+				.mobile{
+					display: block;
+				}
+				.web{
+					display: none;
+				}
 			}
 		}
 		.container-fluid{
 			padding-bottom: 0; border-bottom-width: 0px;
 		}
-		.compNam, .topNav{
+		.topNav{
 			display: none;		
+		}
+		.compNam{
+			font-size: 13px;
+    		padding: 15px 0;
 		}
 		&.navbar{
 			border-bottom: 2px solid #efefef;
